@@ -3,7 +3,7 @@ import productRoute from "./routes/productRoute.js";
 import userRoute from "./routes/userRoute.js";
 import orderRoute from "./routes/orderRoute.js";
 import paymentRoute from "./routes/paymentRoute.js"
-import errorMiddleWare from "./middleware/error.js";
+import errorMiddleWare from "../backend/middleware/error.js";
 import cookieParser from "cookie-parser";
 import bodyParser from "body-parser";
 import fileUpload from "express-fileupload";
