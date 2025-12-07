@@ -6,8 +6,7 @@ import { instance } from "../server.js";
 import crypto from "crypto";
 
 
-// const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
-// const endpointSecret = 'whsec_232b4afd3a55fa8717d190d3d4f5b9bc0a96cac905263c7f37eea46674a5326f';
+
 
 
 export const checkout = catchAsyncError(async(req,res,next)=>{
