@@ -5,6 +5,7 @@ import cloudinary from "cloudinary";
 import Razorpay from "razorpay";
 dotenv.config();
 
+dotenv.config({ path: "./.env" });
 //Uncaught Error
 process.on("uncaughtException",(error)=>{
     console.log(`Error: ${error.message}`);
