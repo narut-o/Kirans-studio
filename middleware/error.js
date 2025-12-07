@@ -1,4 +1,4 @@
-import ErrorHandler from "../backend/utils/errorHandler.js";
+import ErrorHandler from "../utils/errorHandler.js";
 
 const errorMiddleWare = (err,req,res,next)=>{
     err.statusCode = err.statusCode||500;
