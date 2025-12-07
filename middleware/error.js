@@ -14,7 +14,7 @@ const errorMiddleWare = (err,req,res,next)=>{
         const message = `User ${Object.keys(err.keyValue)} already exist please try login`
         err = new ErrorHandler(message,400);
     }
-    //Wrong jwt error
+    //Wrong jwt errorr
     if(err.name==="JsonWebTokenError")
     {
         const message = "Json web token is invalid, Try again";
