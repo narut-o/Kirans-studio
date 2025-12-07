@@ -8,7 +8,6 @@ import cookieParser from "cookie-parser";
 import bodyParser from "body-parser";
 import fileUpload from "express-fileupload";
 import cors from "cors";
-import Stripe from "stripe";
 import * as dotenv from 'dotenv';
 dotenv.config();
 
