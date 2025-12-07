@@ -1,5 +1,4 @@
 import catchAsyncError from "../middleware/catchAsyncError.js";
-import Stripe from "stripe";
 import * as dotenv from 'dotenv';
 import Order from "../models/orderModel.js";
 import { instance } from "../server.js";
